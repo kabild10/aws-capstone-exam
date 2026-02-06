@@ -18,8 +18,8 @@ variable "azs" {
   default = ["us-east-1a", "us-east-1b"]
 }
 
-variable "key_name" {
-  description = "webserver-key"
+variable "key_name" {   
+  default      = "webserver-key"
 }
 
 
